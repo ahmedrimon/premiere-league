@@ -1,49 +1,58 @@
-import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActionArea from '@material-ui/core/CardActionArea';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import Button from '@material-ui/core/Button';
-import Typography from '@material-ui/core/Typography';
+import ReactDOM from 'react-dom'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 240,
-  },
-  media: {
-    height: 70,
-  },
-});
+import React, { useEffect, useState } from 'react';
+import { Card, Button } from 'react-bootstrap';
+
+
 
 const Home = () => {
-    const classes = useStyles();
+
+        // const[teams, setTeams]=useState();
+        
+
+        // useEffect(() => {
+        //     const url = `https://www.thesportsdb.com/api/v1/json/1/lookup_all_teams.php?id=4328`
+        // fetch(url)
+        // .then(res => res.json())
+        // .then(data => setTeams(data))
+        // }, []) 
     return (
-        <div>
-            <Card className={classes.root}>
-                <CardActionArea>
-                    <CardMedia
-                        className={classes.media}
-                        image="/static/images/cards/contemplative-reptile.jpg"
-                        title="Contemplative Reptile"
-                    />
-                    <CardContent>
-                        <Typography gutterBottom variant="h5" component="h2">
-                            Manchester United
-                        </Typography>
-                        <Typography variant="body2" color="textSecondary" component="p">
-                            Sports Type: Football
-                        </Typography>
-                    </CardContent>
-                </CardActionArea>
-                <CardActions>
-                    <Button size="small" color="primary">
-                        Explore
-                    </Button>
-                </CardActions>
+
+        <div className="main-container">
+            {/* <h1>here are: {teams}</h1> */}
+        <div className="container">
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="../images/manchester.jpg" />
+                <Card.Body>
+                    <Card.Title>Menchester United</Card.Title>
+                    <Card.Text>Sports Type: Football</Card.Text>
+                    <Button variant="primary"> Explore <FontAwesomeIcon icon={faArrowRight} /></Button>
+                </Card.Body>
+            </Card>
+        
+         
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Body>
+                    <Card.Title>Liverpool</Card.Title>
+                    <Card.Text>Sports Type: Football</Card.Text>
+                    <Button variant="primary">Explore <FontAwesomeIcon icon={faArrowRight} /></Button>
+                </Card.Body>
+            </Card>
+        
+            <Card style={{ width: '18rem' }}>
+                <Card.Img variant="top" src="holder.js/100px180" />
+                <Card.Body>
+                    <Card.Title>Chelsea</Card.Title>
+                    <Card.Text>Sports Type: Football</Card.Text>
+                    <Button variant="primary">Explore <FontAwesomeIcon icon={faArrowRight} /></Button>
+                </Card.Body>
             </Card>
         </div>
+        </div>    
+        
     );
 };
 
