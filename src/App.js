@@ -1,10 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Button } from '@material-ui/core';
 import './App.css';
+import Home from './components/Home/Home';
+
 
 function App() {
+  
   return (
-    <div className="App">
-      <h1>This is Rimon</h1>
+    <div>
+      <h1>Rimon</h1>
+      <Home></Home>
+    
     </div>
   );
 }
