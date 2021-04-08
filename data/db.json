@@ -1,0 +1,88 @@
+{
+    "teams" :[
+        {
+            "id" :1,
+            "name":"FC Barcelona",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "November 29,1899",
+            "country":"spain",
+            "Gender": "Male"
+        },
+        {
+            "id" :2,
+            "name":"Liverpool",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "June 3,1892",
+            "country":"spain",
+            "Gender": "Male"
+        },
+        {
+            "id" :3,
+            "name":"Chelsea",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "November 29,1899",
+            "country":"United Kingdom",
+            "Gender": "Male"
+        },
+        {
+            "id" :4,
+            "name":"Man City",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "November 29,1880",
+            "country":"United Kingdom",
+            "Gender": "Male"
+        },
+        {
+            "id" :5,
+            "name":"Arsenal",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "November 29,1886",
+            "country":"United Kingdom",
+            "Gender": "Male"
+        },
+        {
+            "id" :6,
+            "name":"Tottenham",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "September 5, 1882",
+            "country":"United Kingdom",
+            "Gender": "Male"
+        },
+        {
+            "id" :7,
+            "name":"Everton",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "November 29,1878",
+            "country":"United Kingdom",
+            "Gender": "Male"
+        },
+        {
+            "id" :8,
+            "name":"Manchester United",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "November 24,1878",
+            "country":"spain",
+            "Gender": "Male"
+        },
+        {
+            "id" :9,
+            "name":"Crystal Palace",
+            "Sports Type": "football",
+            "strSport": "Soccer",
+            "Founded" : "september 10, 1905",
+            "country":"United Kingdom",
+            "Gender": "Male"
+        }
+
+
+    ]
+   
+}
