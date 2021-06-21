@@ -1,17 +1,18 @@
-import React from 'react';
-
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 import './App.css';
-import Home from './components/Home/Home';
-
 
 function App() {
   
   return (
-    <div>
-      <h1>Rimon</h1>
-      <Home></Home>
-    
-    </div>
+    <>
+      <h2>Anonno Ruddho</h2>
+      <h3>Start this router</h3>
+      
+      
+      
+
+    </>
   );
 }
 
