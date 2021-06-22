@@ -1,18 +1,31 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
+import React from 'react';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './components/Home/Home';
+import Error from './components/Error/Error';
 
 function App() {
   
   return (
-    <>
-      <h2>Anonno Ruddho</h2>
-      <h3>Start this router</h3>
-      
-      
-      
-
-    </>
+    <Router>
+        <Switch>
+          <Route path="/home">
+            <Home/>
+          </Route>
+          
+          <Route exact path="/">
+            <Home/>
+          </Route>
+          <Route path="*">
+            <Error/>
+          </Route>
+        </Switch>
+    </Router>
   );
 }
 

@@ -1,0 +1,22 @@
+.card{
+    padding: 50px 50px 50px 50px;
+    height: 385px;
+    width: 250px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+}
+.img{
+    height: 130px;
+    width: 130px;
+}
+.main-row{
+    padding: 50px 400px 40px 400px;
+}
+.col{
+    margin: 50px 50px 50px 50px;
+}
+.home-container{
+    background: rgb(1, 10, 20)
+}
