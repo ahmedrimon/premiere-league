@@ -27,7 +27,7 @@ const Home = () => {
     }, [])
     return (
         <div className="home-container">
-            {/* <h3>Leagues detail: {leagues.length}</h3> */}
+            <h3>Leagues detail: {leagues.length}</h3>
             <img className="image" src={img10} alt="" />
             <Row className="main-row">
                 <Col className="col">
@@ -147,7 +147,6 @@ const Home = () => {
                     </Card>
                 </Col>
             </Row>
-
         </div>
     );
 };
